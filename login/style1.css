@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    background: rgb(78, 78, 109);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Wrapper Style */
+.wrapper {
+    background: #f4f7f5;
+    border: 2px,  solid;
+    color: rebeccapurple;
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Heading Style */
+.wrapper h1 {
+    margin-bottom: 25px;
+    font-size: 29px;
+    color: purple;
+    text-align: center;
+    
+}
+
+/* Input Box Style */
+.input-box {
+    display: flex;  /* Use flexbox to align items */
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 0 10px; /* Padding for the container */
+    background: none;
+    transition: border 0.3s ease;
+}
+
+.input-box input {
+    flex: 1; /* Input takes up the remaining space */
+    height: 40px;
+    border: none; /* Remove default border */
+    outline: none;
+    font-size: 14px;
+    color: black;
+    background: transparent;
+    padding-left: 10px; /* Space between icon and text */
+}
+
+.input-box input::placeholder {
+    color: rgb(74, 48, 48);
+}
+
+.input-box i {
+    color: #0a0a0a;
+    font-size: 18px;
+}
+
+/* Focus State */
+.input-box input:focus {
+    border-color: #3498db;
+    background: rgb(234, 240, 244);
+}
+
+/* Information Checkbox Style */
+.information {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: blue;
+    text-align: left;
+}
+
+.information input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Button Style */
+.btn {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .wrapper {
+        padding: 20px 15px;
+    }
+
+    .wrapper h1 {
+        font-size: 22px;
+    }
+
+    .btn {
+        padding: 8px 0;
+    }
+}

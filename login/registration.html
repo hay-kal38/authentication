@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style1.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="wrapper">
+        <form id="registrationForm">
+            <h1>Registration</h1>
+            <div class="input-box">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="registrationFullName" name="fullname" placeholder="Full name" required>
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="input-box">
+                <label for="username">Username</label>
+                <input type="text" id="registrationUserName" name="username" placeholder="Username" required>
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="input-box">
+                <label for="phone">Phone Number</label>
+                <input type="number" id="registrationPhoneNumber" name="phone" placeholder="Phone number" required>
+                <i class='bx bxs-phone'></i>
+            </div>
+            <div class="input-box">
+                <label for="email">Email</label>
+                <input type="email" id="registrationEmail" name="email" placeholder="Email" required>
+                <i class='bx bxs-envelope'></i>
+            </div>
+            <div class="input-box">
+                <label for="password">Password</label>
+                <input type="password" id="registrationPassword" name="password" placeholder="Password" required>
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+            <div class="input-box">
+                <label for="confirm_password">Confirm Password</label>
+                <input type="password" id="confirm_password" name="confirm_password" placeholder="Confirm Password" required>
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+            <div class="information">
+                <label>
+                    <input type="checkbox" required> I hereby declare that the above information is true
+                </label> 
+            </div>
+            <button type="submit" class="btn">Register</button>
+        </form>
+        <div id="registrationResponseMessage"></div> <!-- To display the response message -->
+    </div>
+    <script src="registration.js"></script>
+</body>
+</html>
