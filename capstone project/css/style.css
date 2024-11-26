@@ -69,7 +69,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(/Capstoneproject-ease1/assets/backgroundImage.png);
+    background: url(/assets/backgroundImage.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -232,7 +232,7 @@ span{
 .footer-home{
   border-top-left-radius: 150px;
   overflow: hidden;
-  background: url(/Capstoneproject-ease1/assets/contact\ form\ background\ shapes@2x.png);
+  background: url(/assets/contact\ form\ background\ shapes@2x.png);
   width: 100%;
   min-height: 100vh;
   background-color: rgb(69, 69, 238);
