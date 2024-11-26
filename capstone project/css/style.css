@@ -1,0 +1,412 @@
+/* General Styles */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section{
+  width: 100%;
+  height: fit-content;
+}
+
+body {
+    width: 100%;
+    color: black;
+    background-color: rgb(236, 239, 241);
+    font-family: Arial, Helvetica, sans-serif;
+  } 
+
+  header{
+    position: fixed;
+    background: none;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .navbar{
+    height: 100%;
+    width: 100%;
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+  }
+  .logo{
+    font-size: 1.5rem;
+    color: rgb(0, 102, 255);
+  }
+  .navlist{
+    display: flex;
+  }
+  li{
+    list-style: none;
+    margin-left: 20px;
+    font-size: 16px;
+  }
+  .menu-icon span {
+    display: none;
+    height: 4px;
+    background-color: black;
+    border-radius: 5px;
+    width: 100%;
+  }
+
+  /*home*/
+  .header{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    border-bottom-left-radius: 15%;
+    overflow: hidden;
+  }
+  
+  .header  .background-image{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(/Capstoneproject-ease1/assets/backgroundImage.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+  h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  p{
+    font-size: 24px;
+    margin-bottom: 2%;
+    line-height: 1.2;
+    
+  }
+  .blue-text{
+    color: rgb(49, 152, 216);
+    
+  }
+  .icons{
+    width: 150px;
+    height: auto;
+    gap: 20px;
+    display: flex;
+  }
+  .overlay-text{
+
+    text-align: left;
+    padding: 10px 20px;
+    border-radius: 0;
+    display: inline-flexbox;
+    
+  }
+
+  .trial{
+    width: 100%;
+    height: 100vh;
+  }
+
+  /*about*/
+  .about{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    border-top-right-radius: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-home{
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-home .overlay-text{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+  }
+
+  .text-wording{
+    width: 100%;
+    height: 100%;
+    padding: 10px 0 10px;
+  }
+
+  h2 {
+    text-align: left;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .words{
+    font-size: 18px;
+  }
+
+  .icons.lists{
+    margin: 20px 0 20px;
+    padding: 0 10px 0;
+  }
+  .button{
+    width: fit-content;
+    border: 2px solid rgb(0, 153, 255);
+    color: rgb(0, 153, 255);
+    border-radius: 8px;
+  }
+  .button p{
+    font-size: 18px;
+    padding: 10px 8px;
+    text-align: center;
+  }
+  .about-home .container{
+    width: 55%;
+    height: fit-content;
+    justify-content: space-between;
+  }
+  .about-header{
+    width: 100%;
+    height: 40px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .about-header.two,
+  .about-header.three{
+    margin-bottom: 20px;
+  }
+
+  .about-header.three{
+    margin-top: 10px;
+  }
+
+.box-items{
+  width: 100%;
+  display: flex;
+  margin: 30px 0 30px;
+}
+
+.box {
+  width: 100px;
+  height: fit-content;
+  padding: 10px; 
+  display: flex;
+  margin-left: 30px;
+  flex-direction: column;
+  background-color: rgb(236, 239, 241) ; 
+  /* Hide overflow if image is larger than the box */
+}
+
+span{
+  text-align: left;
+}
+
+.box img{
+  width: 40px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+   /*footer*/
+.footer {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  background-color: #fff;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer-home{
+  border-top-left-radius: 150px;
+  overflow: hidden;
+  background: url(/Capstoneproject-ease1/assets/contact\ form\ background\ shapes@2x.png);
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(69, 69, 238);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ .footer-wording{
+  width: 500px;
+  height: fit-content;
+  padding: 0 20px 0;
+ }
+.footer-h3{
+  font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.footer-p{
+  font-size: 18px;
+  margin-bottom: 2%;
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
+.inputs{
+  width: 100%;
+  margin-top: 20px;
+  padding: 0 20px 0;
+}
+.inputs input{
+  width: 100%;
+  padding: 15px 10px;
+  outline: none;
+}
+.inputs textarea{
+  width: 100%;
+  padding: 10px;
+  resize: none;
+  outline: none;
+}
+.submit{
+  padding: 15px 30px;
+  margin-top: 10px;
+  border-radius: 8px;
+  background: #fff;
+  border: 2px solid rgb(0, 153, 255);
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0;
+  }
+  .navbar{
+    padding: 5px 10px;
+  }
+  .logo{
+    font-size: 20px;
+    color: rgb(0, 102, 255);
+  }
+  .navlist{
+    display: none;
+  }
+  li{
+    margin-left: 17px;
+    font-size: 10px;
+  }
+  .menu-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+  }
+  
+  .menu-icon span {
+    display: block;
+    height: 4px;
+    background-color: black;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+p{
+  font-size: 13px;
+  margin-bottom: 2%;
+  line-height: 1.2;
+  
+}
+  .about{
+    min-height: 150vh;
+    padding: 40px 0 40px;
+    background-color: white;
+    border-top-right-radius: 100px;
+  }
+  .about-home{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .about-home .overlay-text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px 0;
+  }
+
+  .text-wording{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+  }
+  h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  .words{
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .button{
+    margin-bottom: 20px;
+  }
+  .about-home .container{
+    width: 100%;
+    height: fit-content;
+  }
+  .about-header{
+    width: 100%;
+    padding: 0 10px;
+  }
+  .box-items{
+    width: 100%;
+    padding: 0 10% 0;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 10px;
+  }
+  .box-items .box {
+    width: 100%;
+    height: 60px;
+    padding: 10px;   
+    border-radius: 8px;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0 10px;
+  }
+  .box img{
+    margin-bottom: 0;
+    margin-right: 20px;
+  }
+  .footer-h3{
+    font-size: 3rem;
+      margin-top: 20px;
+  }
+  .footer-p{
+    font-size: 15px;
+    margin-bottom: 2%;
+    line-height: 1.2;
+    margin-bottom: 15px;
+  }
+  .submit{
+    margin-right: 100px;
+  }
+}
